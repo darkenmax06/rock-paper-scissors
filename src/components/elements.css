@@ -1,0 +1,27 @@
+.element{
+  padding: var(--s) var(--m);
+  width: var(--xxl);
+  height: var(--xxl);
+  border-radius: 50%;
+  border: 10px solid var(--main-color);
+  background-color: transparent;
+  color: var(--main-color);
+  text-transform: uppercase;
+  font-size: 50px;
+  transition: transform .3s;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+.element.unknow{
+  animation-name: move;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  font-family: bold;
+}
+
+.element:hover{
+  transform: scale(1.1) rotate(30deg);
+}

@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "bold" ;
+  font-weight: 700;
+  src: url("./assets/fonts/monserrat.ttf");
+}
+
+@font-face {
+  font-family: "thin" ;
+  font-weight: 400;
+  src: url("./assets/fonts/monserrat.ttf");
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root{
+  --main-color: #FFF058;
+  --main-color-darker: #6e6b47;
+  --second-color: #2A3240;
+  --darker: #212836;
+
+  --s: 8px;
+  --m: 16px;
+  --l: 32px;
+  --xl: 64px;
+  --xxl: 128px
+}
+
+body{
+  background-color: var(--second-color);
+  position: relative;
+}
+
+h1{
+  font-family: bold;
+  font-size: 39px;
+}
+
+h2{
+  font-family: bold;
+  font-size: 33px;
+}
+
+h3{
+  font-family: bold;
+  font-size: 27px;
+}
+
+h4{
+  font-family: bold;
+  font-size: 23px;
+}
+
+h5,span{
+  font-family: bold;
+  font-size: 19px;
+}
+
+h6,a,li,button{
+  font-family: thin;
+  display: inline-block;
+}
+
+/*https://pigment.shapefactory.co/?a=116A85&b=E5D3E0*/
+

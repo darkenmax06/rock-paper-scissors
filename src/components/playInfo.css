@@ -1,0 +1,34 @@
+
+.info__container{
+  background-color: var(--main-color);
+  color: var(--second-color);
+  padding: var(--m) ;
+  border-radius: var(--s);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--m);
+}
+
+.info__container .subtitle{
+  text-transform: uppercase;
+}
+
+.info__container .line{
+  width: 100%;
+  height: 2px;
+  background-color:  var(--second-color);
+}
+
+.info__container ul{
+  list-style: none;
+  display: flex;
+  gap: var(--xl);
+}
+
+
+.info__container ul li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

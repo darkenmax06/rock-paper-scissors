@@ -1,0 +1,23 @@
+
+.modal__container{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: rgba(0, 0, 0, .6);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+}
+
+.modal__container div{
+  background-color: var(--main-color);
+  color: var(--second-color);
+  padding: var(--l);
+  border-radius: var(--s);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--m);
+  box-shadow: 10px 10px 0px var(--main-color-darker);
+}

@@ -1,0 +1,17 @@
+.winner__box{
+  background-color: var(--darker);
+  padding:  var(--l) ;
+  border-radius: var(--m);
+  color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s);
+  text-transform: uppercase;
+}
+
+.winner__box .line{
+  height: 4px;
+  width: 100%;
+  background-color: var(--main-color);
+  margin: var(--s) 0;
+}
